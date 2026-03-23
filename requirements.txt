@@ -1,0 +1,9 @@
+# 核心依赖
+face_recognition>=1.3.0
+streamlit>=1.28.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# 可选依赖（用于更好的性能）
+# dlib>=19.24.0  # face_recognition 会自动安装
