@@ -11,4 +11,14 @@
 - **实时标注**：在图片上绘制人脸框和标签
 
 ## 项目结构
-
+hw03/
+├── app.py # Streamlit 主程序
+├── requirements.txt # Python 依赖
+├── README.md # 项目说明
+├── src/
+│ ├── init.py
+│ └── face_utils.py # 人脸识别核心逻辑
+├── tests/
+│ └── test_face_utils.py # 单元测试
+└── images/ # 示例图片目录
+└── sample.jpg
